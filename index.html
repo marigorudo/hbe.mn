@@ -1,0 +1,910 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ХӨХ БҮРДНИЙ ЭХ</title>
+    <link rel="stylesheet" href="test_final.css">
+</head>
+
+<body>
+    <header>
+        <div class="container">
+            <div class="header-content">
+                <a href="#" class="logo" onclick="showPage('home')"><img src="images/Logo.png">ХӨХ БҮРДНИЙ ЭХ</a>
+                <nav>
+                    <ul>
+                        <li><a href="#" onclick="showPage('home')" class="nav-link active">Нүүр хуудас</a></li>
+                        <li><a href="#" onclick="showPage('about')" class="nav-link">Бидний тухай</a></li>
+                        <li><a href="#" onclick="showPage('services')" class="nav-link">Үйл ажиллагаа</a></li>
+                        <!-- <li><a href="#" onclick="showPage('media')" class="nav-link">Мэдээ мэдээлэл</a></li> -->
+                        <li><a href="#" onclick="showPage('contact')" class="nav-link">Холбоо барих</a></li>
+                    </ul>
+                </nav>
+            </div>
+        </div>
+    </header>
+
+    <main>
+        <!-- HOME PAGE -->
+        <div id="home" class="page active">
+            <!-- Video Banner -->
+            <!-- <section class="video-banner">
+                <div class="container">
+                    <div class="banner-content">
+                        <h1>ХӨХ БҮРДНИЙ ЭХЭЭС ХӨГЖИЛ СҮНДЭРЛЭНЭ</h1>
+                        <p>Professional construction services with excellence and innovation. Your trusted partner in creating lasting structures.</p>
+                    </div>
+                </div>
+            </section> -->
+            <section class="video-banner">
+                <div class="video-background">
+                    <iframe
+                        src="https://www.youtube.com/embed/i2GpoN5FmmY?autoplay=1&mute=1&controls=0&loop=1&playlist=i2GpoN5FmmY&modestbranding=1&showinfo=0&rel=0"
+                        frameborder="0"
+                        allow="autoplay; fullscreen"
+                        allowfullscreen>
+                    </iframe>
+                </div>
+                <div class="container">
+                    <div class="banner-content">
+                        <h1>ХӨХ БҮРДНИЙ ЭХЭЭС ХӨГЖИЛ СҮНДЭРЛЭНЭ</h1>
+                        <p>Шилдэг, шинэлэг барилгын мэргэжлийн үйлчилгээ. Байнгын бүтцийг бий болгоход таны найдвартай түнш.</p>
+                    </div>
+                </div>
+            </section>
+
+
+            <!-- Who Are We -->
+            <section class="section">
+                <div class="container">
+                    <h2>Бид хэн бэ?</h2>
+                    <!-- <p>We are a leading construction company with over [X] years of experience in the industry. Our team of skilled professionals is dedicated to delivering high-quality construction projects that exceed our clients' expectations. From residential buildings to commercial complexes, we handle projects of all sizes with precision and care.</p> -->
+                    <div class="president-text">
+                        <p>
+                            Хөх бүрдний эх ХХК нь 2003 онд үүсгэн байгуулагдаж барилгын салбарт засал
+                            чимэглэл, барилга угсралт, үйлдвэрлэлийн чиглэлээр тогтмол үйлажиллагаа явуулан
+                            өргөжин тэлсээр байна. Бид удирдлага зохион байгуулалт, ажиллах хүч, материаллаг
+                            баазын хувьд бэхжиж, барилга угсралтын ажлыг өөрийн хүч, хөрөнгөнд түшиглэн
+                            чанарын өндөр түвшинд хийж гүйцэтгэн ажиллаж байна.
+                        </p>
+                        <p>
+                            Барилгын салбарт 20 гаруй жил тасралтгүй ажиллаж мэргэжлийн инженер,
+                            архитекторуудын багтайгаар өөрийн болон улсын төсвийн хөрөнгөөр барилга
+                            угсралтын 30 гаруй төслийг чанартай хурдан шуурхай хийж гүйцэтгэсэн ажлын арвин
+                            туршлагатай чадварлаг хамт олон юм.
+                        </p>
+                        <p>
+                            Мөн манай компанинь барилга угсралт, засвар, барилгын материалын худалдаа,
+                            шатах тослох материалын худалдаа, банк бус санхүүгийн байгууллага, уул уурхай болон
+                            олон улсын тээвэр, дайрга, тоосгоны үйлдвэрлэл,газар тариалангийн чиглэлээр үйл
+                            ажиллагаа явуулдаг.
+                        </p>
+                    </div>
+                    <div class="features-grid">
+                        <div class="feature-card">
+                            <h3>Туршлагатай мэргэжилтнүүд</h3>
+                            <p>20 гаруй жилийн туршлагатай, өндөр ур чадвартай инженер, архитектор болон техникийн
+                                ажилтнуудтай хамт олон. Бид Монголын хэмжээнд олон төслийг амжилттай гүйцэтгэж ирсэн.
+                            </p>
+                        </div>
+                        <div class="feature-card">
+                            <h3>Чанартай материалууд</h3>
+                            <p>Бид найдвартай, баталгаат нийлүүлэгчдээс барилгын хамгийн сайн чанарын материалыг
+                                ашиглан, төслүүдийн бат бөх, удаан эдэлгээтэй байдалд анхаарч ажилладаг.</p>
+                        </div>
+                        <div class="feature-card">
+                            <h3>Хугацаандаа хүргэх гүйцэтгэл</h3>
+                            <p>30 гаруй барилгын төслийг хугацаанд нь чанартай гүйцэтгэсэн туршлагатай. Төслүүдийг
+                                төлөвлөсөн хугацаа, төсвийн хүрээнд амжилттай дуусгадаг.</p>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <!-- Statistics -->
+            <section class="section">
+                <div class="container">
+                    <h2>Бидний амжилт</h2>
+                    <div class="stats-grid">
+                        <div class="stat-card">
+                            <div class="stat-number">30+</div>
+                            <div class="stat-label">Төсөл</div>
+                        </div>
+                        <div class="stat-card">
+                            <div class="stat-number">20+</div>
+                            <div class="stat-label">Ажлын туршлага</div>
+                        </div>
+                        <div class="stat-card">
+                            <div class="stat-number">600+</div>
+                            <div class="stat-label">Ажилчид</div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <!-- Recent News -->
+            <!-- <section class="section">
+                <div class="container">
+                    <h2>ШИНЭ МЭДЭЭ</h2>
+                    <div class="news-grid">
+                        <div class="news-card">
+                            <div class="news-date">1-р сарын 1, 1980</div>
+                            <h3>Lorem Ipsum</h3>
+                            <p>
+                                Lorem ipsum dolor sit amet consectetur adipisicing elit. Totam ut dolorum excepturi veritatis nisi velit deserunt est exercitationem unde eveniet sed quam incidunt, assumenda sapiente voluptatum possimus at deleniti obcaecati!
+                            </p>
+                        </div>
+                        <div class="news-card">
+                            <div class="news-date">1-р сарын 1, 1980</div>
+                            <h3>Lorem Ipsum</h3>
+                            <p>
+                                Lorem ipsum dolor sit amet consectetur adipisicing elit. Totam ut dolorum excepturi veritatis nisi velit deserunt est exercitationem unde eveniet sed quam incidunt, assumenda sapiente voluptatum possimus at deleniti obcaecati!
+                            </p>
+                        </div>
+                        <div class="news-card">
+                            <div class="news-date">1-р сарын 1, 1980</div>
+                            <h3>Lorem Ipsum</h3>
+                            <p>
+                                Lorem ipsum dolor sit amet consectetur adipisicing elit. Totam ut dolorum excepturi veritatis nisi velit deserunt est exercitationem unde eveniet sed quam incidunt, assumenda sapiente voluptatum possimus at deleniti obcaecati!
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </section> -->
+            <section class="section">
+                <div class="container">
+                    <h2>ШИНЭ МЭДЭЭ</h2>
+                    <div class="news-grid" id="newsGrid"></div>
+                </div>
+            </section>
+
+            <div id="modal" class="modal">
+                <div class="modal-content">
+                    <span class="close" id="closeModal">&times;</span>
+                    <div class="modal-header">
+                        <div class="modal-date" id="modalDate"></div>
+                        <h2 class="modal-title" id="modalTitle"></h2>
+                    </div>
+                    <div class="modal-body" id="modalBody"></div>
+                </div>
+            </div>
+        </div>
+
+        <!-- ABOUT US PAGE -->
+        <div id="about" class="page">
+            <!-- President's Message -->
+            <section class="president-message">
+                <div class="container">
+                    <h1 class="president-message-title">Захирлын мэндчилгээ</h1>
+                    <div class="president-content">
+                        <div class="president-photo">
+                            <img src="images/Logo.png" alt="President Photo">
+                        </div>
+                        <div class="president-text">
+                            <div class="quote">
+                                "Эх орныхоо хөгжил дэвшилд бид бат суурь тавьж, ирээдүй хойч үедээ үнэ цэнийг өвлүүлнэ"
+                            </div>
+                            <p>
+                                Эрхэм түншүүд, хамтрагчид, харилцагчид аа,
+                                Танай байгууллага, гэр бүлд энх тунх, амжилт бүтээл, хөгжил дэвшлийг хүсэн мэндчилье.
+                            </p>
+                            <p>
+                                “Хөх бүрдний эх” ХХК нь 2003 оноос хойш барилга угсралт,барилгын материалын
+                                үйлдвэрлэл, худалдаа, уул уурхай, нөхөн сэргээлт, банк бус санхүүгийн чиглэлээр
+                                тууштай, шударга, чанартай үйл ажиллагаа явуулсаар өнөөдрийг хүрлээ. Бид үйл
+                                ажиллагааныхаа бүхийл шатанд чанарын удирдлагын тогтолцоо, мэргэжлийн багийн
+                                хүч, байгаль орчин, нийгмийн хариуцлагыг дээдэлсэн зарчмыг тууштай баримталсаар
+                                ирсэн. Бидний гүйцэтгэсэн ажлууд сургууль, цэцэрлэг, эмнэлэг, орон сууц,
+                                үйлдвэрлэлийн барилга байгууламжууд,амьдралд өртөөлсөн хөгжил, хүний төлөө
+                                хөрөнгө оруулалт гэж бид ойлгодог.
+                            </p>
+                            <p>
+                                Манай инженер,техникийн хамт олон улс орны хөгжилд хувь нэмэр оруулж,бат
+                                бэх суурь тавьж, ирээдүй хойч үедээ гэрэлт ирээдүйг бэлэглэх хариуцлага, итгэлдээр
+                                тулгуурлан ажилладаг.
+                            </p>
+                            <p>
+                                Цаашид бид дэвшилтэт технологи, эко шийдэл, үндэсний инженерчлэлд
+                                суурилсан үйл ажиллагаагаа улам өргөжүүлэн, харилцагчидтайгаа илүү нягт хамтран
+                                ажиллахыг зорьж байна.
+                            </p>
+                            <p>
+                                "Хөх бүрдэнд цэцэг ургадаг" гэдэг билэгшээлтэй үг бий. Бид энэ үзлийг даган,
+                                Монголын хөгжил цэцэглэлтийн төлөө хөрсөнд нь эх тавьж, итгэлийн суурь барьж
+                                ажилласаар байх болно. Мөн манай хамт олон бид сэтгэл зүтгэл нэгтэйгээр 20 гаруй
+                                жилийн хугацаанд хийж гүйцэтгэсэн ажлаасаа туршлага хуримтлуулж,чамлахааргүй
+                                амжилт гарган, үр дүнд хүрч ажиллаж чадсанаараа бахархдаг.
+                            </p>
+                            <p>
+                                Манай компанитай хамтран ажилладаг мэргэжил нэгт эрхэм бизнесийн түншүүд,
+                                хэрэглэгч, худалдан авагч та бүхэндээ эрүүл энх амьдрал, ажил бүтээлийн амжилтыг
+                                хүсэн ерөөе!
+                            </p>
+                            <div class="president-signature">
+                                <strong>- Нансал Энхтайван</strong><br>
+                                <span>Ерөнхий захирал</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <!-- Company Information -->
+            <section class="section">
+                <div class="container">
+                    <h2>Компанийн товч танилцуулга</h2>
+                    <div class="company-info-container">
+                        <div class="info-card">
+                            <h3>Эрхэм зорилго</h3>
+                            <p>Монгол Улсын барилгын салбарт олон улсын стандарт, байгальд ээлтэй шийдэл, тогтвортой
+                                хөгжлийг шингээсэн бүтээн байгуулалтаар үнэ цэнэ нэмэх.</p>
+                        </div>
+                        <div class="info-card">
+                            <h3>Алсын хараа</h3>
+                            <p>Бүс нутагтаа шинэ санаачилга, найдвартай байдал, тогтвортой барилгын практик шийдлээрээ
+                                танигдсан, хамт олны хөгжилд хувь нэмэр оруулдаг тэргүүлэгч барилгын компани байх.</p>
+                        </div>
+                        <div class="info-card">
+                            <h3>Уриа үг</h3>
+                            <p class="slogan">"ХӨХ БҮРДНИЙ ЭХЭЭС ХӨГЖИЛ СҮНДЭРЛЭНЭ"</p>
+                        </div>
+                        <div class="info-card">
+                            <h3>Үнэт зүйлс болон зарчим</h3>
+                            <ul>
+                                <li>Чанарын төгөлдөржилт</li>
+                                <li>Харилцагчийн сэтгэл ханамж</li>
+                                <li>Аюулгүй ажиллагааг нэн тэргүүнд тавих</li>
+                                <li>Байгаль орчны өмнө хүлээх хариуцлага</li>
+                                <li>Шинэ санаа, өсөлт хөгжил</li>
+                                <li>Шударга байдал ба итгэлцэл</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <!-- Historical Timeline -->
+            <section class="section">
+                <div class="container">
+                    <h2>Түүхэн замнал</h2>
+                    <div class="timeline">
+                        <div class="timeline-item">
+                            <div class="timeline-year">
+                                <p>2003</p>
+                            </div>
+                            <div class="timeline-content">
+                                <img src="images/Logo.png" alt="ХӨХ БҮРДНИЙ ЭХ ХХК Logo" class="company-logo">
+                                <div class="timeline-text">
+                                    <h3>ХӨХ БҮРДНИЙ ЭХ ХХК</h3>
+                                    <p>БАРИЛГА УГСРАЛТ, БАРИЛГЫН МАТЕРИАЛ ХУДАЛДАА</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="timeline-item">
+                            <div class="timeline-year">
+                                <p>2012</p>
+                            </div>
+                            <div class="timeline-content">
+                                <img src="images/Logo.png" alt="НАРАН ОЙЛ ХХК Logo" class="company-logo">
+                                <div class="timeline-text">
+                                    <h3>НАРАН ОЙЛ ХХК</h3>
+                                    <p>УЛС ХООРОНДЫН АЧААТЭЭВЭР</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="timeline-item">
+                            <div class="timeline-year">
+                                <p>2012</p>
+                            </div>
+                            <div class="timeline-content">
+                                <img src="images/Logo.png" alt="ХОНГОР ХОЛДИНГ ХХК Logo" class="company-logo">
+                                <div class="timeline-text">
+                                    <h3>ХОНГОР ХОЛДИНГ ХХК</h3>
+                                    <p>ДАЙРГА ОЛБОРЛОЛТ, ТООСГО ҮЙЛДВЭРЛЭЛ</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="timeline-item">
+                            <div class="timeline-year">
+                                <p>2014</p>
+                            </div>
+                            <div class="timeline-content">
+                                <img src="images/Logo.png" alt="АЛТАН САН АКТИВ ББСБ Logo" class="company-logo">
+                                <div class="timeline-text">
+                                    <h3>АЛТАН САН АКТИВ ББСБ</h3>
+                                    <p>БАНКБУС САНХҮҮГИЙН БАЙГУУЛЛАГА</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="timeline-item">
+                            <div class="timeline-year">
+                                <p>2015</p>
+                            </div>
+                            <div class="timeline-content">
+                                <img src="images/Logo.png" alt="ШУВУУН ХАР УУЛ ХХК Logo" class="company-logo">
+                                <div class="timeline-text">
+                                    <h3>ШУВУУН ХАР УУЛ ХХК</h3>
+                                    <p>ГЕОЛОГИ ХАЙГУУЛ, УУЛУУРХАЙН ОЛБОРЛОЛТ</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="timeline-item">
+                            <div class="timeline-year">
+                                <p>2024</p>
+                            </div>
+                            <div class="timeline-content">
+                                <img src="images/Logo.png" alt="СУВАРГАН ТАМИР ХХК Logo" class="company-logo">
+                                <div class="timeline-text">
+                                    <h3>СУВАРГАН ТАМИР ХХК</h3>
+                                    <p>ГАЗАР ТАРИАЛАН</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </div>
+
+        <!-- SERVICES PAGE -->
+        <div id="services" class="page">
+            <section class="section">
+                <div class="container">
+                    <h2>Үйл ажиллагаа</h2>
+                    <div class="services-grid">
+                        <div class="service-card">
+                            <h3>Барилга угсралт</h3>
+                            <p>Барилгын суурь тавихаас эхлээд бүрэн дуусгалт хүртэл бүх төрлийн барилгын ажлыг иж
+                                бүрнээр нь гүйцэтгэнэ. Үүнд орон сууцны, худалдаа үйлчилгээний болон үйлдвэрлэлийн
+                                барилгууд багтана.</p>
+                            <ul>
+                                <li>Орон сууцны барилга угсралт</li>
+                                <li>Худалдаа, үйлчилгээний барилга</li>
+                                <li>Үйлдвэрийн барилга байгууламж</li>
+                                <li>Засвар, шинэчлэлтийн ажил</li>
+                            </ul>
+                        </div>
+                        <div class="service-card">
+                            <h3>Барилгын материалын худалдаа</h3>
+                            <p>Барилгын бүх төрлийн төслүүдэд зориулсан өндөр чанарын барилгын материал, тоног
+                                төхөөрөмжийн нийлүүлэлт.</p>
+                            <ul>
+                                <li>Цемент ба бетоны бүтээгдэхүүн</li>
+                                <li>Арматур, төмөр хийц</li>
+                                <li>Цахилгаан болон сантехникийн тоноглол</li>
+                                <li>Дуусгалын материалууд</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <!-- Projects Section -->
+            <section class="section">
+                <div class="container">
+                    <h2>Төслүүд</h2>
+
+                    <!-- Current Projects -->
+                    <div class="projects-category">
+                        <h3>Хэрэгжүүлж буй төсөл</h3>
+                        <div class="projects-grid">
+                            <div class="project-card">
+                                <div class="project-image">
+                                    <img src="images/Services/khongorGarden.png" alt="Residential Complex - Phase 1">
+                                </div>
+                                <h4>Хонгор Гарден</h4>
+                                <div class="project-details">
+                                    <p><strong>Он сар:</strong> 2024-2028 Он</p>
+                                    <p><strong>Байршил:</strong> Баян хонгор аймаг, Баянхонгор сум, Угалз, 4-рбаг</p>
+                                    <p><strong>Тайлбар:</strong> Баянхонгор аймгийн төв цэг болох Мазаалай паркын зүүн
+                                        урд, ирээдүйд үнэ цэнэ өсөн нэмэгдэх байрлалтай. Хүүхдэд ээлтэй амралт чөлөөт
+                                        цагаа өнгөрүүлэх орчин нөхцөл бүрдсэн.</p>
+                                    <p><strong>Санхүүжилт:</strong> 100% өөрийн хөрөнгө оруулалт</p>
+                                    <p><strong>Блок, хэдэн айлын орон сууц:</strong> 6 блок, 8 давхар, 1280 айл</p>
+                                </div>
+                            </div>
+                            <div class="project-card">
+                                <div class="project-image">
+                                    <img src="images/Services/galbaMuseum.png" alt="Residential Complex - Phase 1">
+                                </div>
+                                <h4>Галба музей</h4>
+                                <div class="project-details">
+                                    <p><strong>Он сар:</strong> 2025 оны 4-р улирал</p>
+                                    <p><strong>Байршил:</strong> Өмнөговь аймаг, Ханбогдсум</p>
+                                    <!-- <p><strong>Тайлбар:</strong> Modern educational facility for 800 students</p>
+                                    <p><strong>Санхүүжилт:</strong> [Financing Details Placeholder]</p>
+                                    <p><strong>Сургууль:</strong> 800 сурагчийн багтаамжтай</p> -->
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Accomplished Projects -->
+                    <div class="projects-category">
+                        <h3>Хэрэгжүүлсэн төсөл</h3>
+                        <div class="projects-grid">
+                            <div class="project-card">
+                                <div class="project-image">
+                                    <img src="images/Services/khongorAppartment.png"
+                                        alt="Residential Complex - Phase 1">
+                                </div>
+                                <h4>Хонгор Апартмент</h4>
+                                <div class="project-details">
+                                    <p><strong>Он сар:</strong> 2022 онд ашиглалтад орсон</p>
+                                    <p><strong>Байршил:</strong> Улаанбаатар хот, Хан-Уулдүүрэг,3-р хороо</p>
+                                    <p><strong>Тайлбар:</strong> Эрүүл хөрс, агаарын бохирдолгүй орчинд байрлалтай,
+                                        ирээдүйн үнэ цэнийг хадгалах байршил. Дэлхийн шилдэг брэндийн тоноглол, ногоон
+                                        байгууламж, хүүхдийн тоглоомын болон сагсан бөмбөгийн талбайтай. Автомашины
+                                        гадна зогсоол хангалттай.</p>
+                                    <p><strong>Санхүүжилт:</strong> 100% өөрийн хөрөнгө оруулалт</p>
+                                    <p><strong>Блок, хэдэн айлын орон сууц:</strong> 14 давхар, 144 айл</p>
+                                </div>
+                            </div>
+                            <div class="project-card">
+                                <div class="project-image">
+                                    <img src="images/Services/greenPalace.png" alt="Residential Complex - Phase 1">
+                                </div>
+                                <h4>Munkh Hotel</h4>
+                                <div class="project-details">
+                                    <p><strong>Он сар:</strong> 2023 онд ашиглалтад орсон</p>
+                                    <p><strong>Байршил:</strong> Баянхонгор аймаг, Баянхонгор сум</p>
+                                    <p><strong>Тайлбар:</strong> Хурим, найр, тэмдэглэлт өдрүүдийн цогц үйлчилгээ,
+                                        ресторан, кофе шоп, кино театр, хурлын танхим бүхий цогцолбор барилга</p>
+                                    <p><strong>Санхүүжилт:</strong> 100% өөрийн хөрөнгө оруулалт</p>
+                                    <p><strong>Давхар:</strong> 8 давхар Зочид буудал</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Planned Projects -->
+                    <div class="projects-category">
+                        <h3>Хэрэгжүүлж буй төсөл</h3>
+                        <div class="projects-grid">
+                            <div class="project-card">
+                                <div class="project-image">
+                                    <img src="images/Services/greenPalace.png" alt="Residential Complex - Phase 1">
+                                </div>
+                                <h4>Green Palace</h4>
+                                <div class="project-details">
+                                    <p><strong>Он сар:</strong> 2025-2027 Он</p>
+                                    <p><strong>Байршил:</strong> Улаанбаатар хот, Хан-Уул дүүрэг, 23-р хороо, Арцатынам
+                                    </p>
+                                    <p><strong>Тайлбар:</strong> Үзэсгэлэнт байгаль, цэвэр агаар, эрүүл хөрс, эерэг
+                                        энерги бүхий байршилд өндөр тааз, уужим цэлгэр цонхоор байгалийн сайхныг тольдох
+                                        боломжийг танд олгоно.</p>
+                                    <p><strong>Санхүүжилт:</strong> 100% өөрийн хөрөнгө оруулалт</p>
+                                    <p><strong>Блок, хэдэн айлын орон сууц:</strong> 7 блок, 8 давхар, 298 айл</p>
+                                </div>
+                            </div>
+                            <!-- <div class="project-card">
+                                <div class="project-image">
+                                    <img src="images/Services/greenPalace.png" alt="Residential Complex - Phase 1">
+                                </div>
+                                <h4>Secondary School Building</h4>
+                                <div class="project-details">
+                                    <p><strong>Он сар:</strong> March 2019 - August 2021</p>
+                                    <p><strong>Байршил:</strong> [Location Placeholder]</p>
+                                    <p><strong>Тайлбар:</strong> Modern educational facility for 800 students</p>
+                                    <p><strong>Санхүүжилт:</strong> [Financing Details Placeholder]</p>
+                                    <p><strong>Сургууль:</strong> 800 сурагчийн багтаамжтай</p>
+                                </div>
+                            </div> -->
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </div>
+
+        <!-- MEDIA PAGE -->
+        <div id="media" class="page">
+            <section class="section">
+                <div class="container">
+                    <h2>Мэдээ мэдээлэл</h2>
+
+                    <!-- Photo Gallery -->
+                    <div class="media-category">
+                        <h3>Төсөлүүдийн зурагууд</h3>
+                        <div class="gallery-grid">
+                            <div class="gallery-item">
+                                <img src="https://placehold.co/400x300" alt="Project Photo 1">
+                                <div class="gallery-caption">Residential Complex - Exterior View</div>
+                            </div>
+                            <div class="gallery-item">
+                                <img src="https://placehold.co/400x300" alt="Project Photo 2">
+                                <div class="gallery-caption">Hospital Building - Main Entrance</div>
+                            </div>
+                            <div class="gallery-item">
+                                <img src="https://placehold.co/400x300" alt="Project Photo 3">
+                                <div class="gallery-caption">School Building - Classroom Wing</div>
+                            </div>
+                            <div class="gallery-item">
+                                <img src="https://placehold.co/400x300" alt="Project Photo 4">
+                                <div class="gallery-caption">Museum - Cultural Hall</div>
+                            </div>
+                            <div class="gallery-item">
+                                <img src="https://placehold.co/400x300" alt="Project Photo 5">
+                                <div class="gallery-caption">Construction Site - Progress View</div>
+                            </div>
+                            <div class="gallery-item">
+                                <img src="https://placehold.co/400x300" alt="Project Photo 6">
+                                <div class="gallery-caption">Team at Work - Site Management</div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Video Gallery -->
+                    <div class="media-category">
+                        <h3>Project Videos</h3>
+                        <div class="video-grid">
+                            <div class="video-item">
+                                <div class="video-placeholder">
+                                    <p>Video: Project Completion - Residential Complex</p>
+                                    <small>Duration: 3:45</small>
+                                </div>
+                            </div>
+                            <div class="video-item">
+                                <div class="video-placeholder">
+                                    <p>Video: Construction Process - Hospital Building</p>
+                                    <small>Duration: 5:20</small>
+                                </div>
+                            </div>
+                            <div class="video-item">
+                                <div class="video-placeholder">
+                                    <p>Video: Company Overview</p>
+                                    <small>Duration: 2:15</small>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- News & Press -->
+                    <div class="media-category">
+                        <h3>News & Press Coverage</h3>
+                        <div class="news-list">
+                            <div class="news-item">
+                                <div class="news-date">December 2024</div>
+                                <h4>Featured in Construction Industry Magazine</h4>
+                                <p>Our innovative building techniques and sustainable practices were highlighted in the
+                                    latest issue of Construction Industry Magazine.</p>
+                            </div>
+                            <div class="news-item">
+                                <div class="news-date">November 2024</div>
+                                <h4>Television Interview - Future of Construction</h4>
+                                <p>Our CEO was interviewed on national television discussing the future of construction
+                                    and sustainable building practices.</p>
+                            </div>
+                            <div class="news-item">
+                                <div class="news-date">October 2024</div>
+                                <h4>Award Ceremony Coverage</h4>
+                                <p>Media coverage of our Excellence in Construction Award ceremony, recognizing our
+                                    outstanding project delivery.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </div>
+
+        <!-- CONTACT PAGE -->
+        <div id="contact" class="page">
+            <section class="section">
+                <div class="container">
+                    <h2>Холбоо барих</h2>
+
+                    <div class="contact-container">
+                        <div class="contact-info">
+                            <h3>Холбогдох</h3>
+                            <div class="contact-item">
+                                <strong>Хаяг:</strong>
+                                <p>ХАН-УУЛ ДҮҮРЭГ 3 ХОРОО, ҮЙЛДВЭРЧИН ГУДАМЖ,
+                                    <br>
+                                    ХОНГОР АПАРТМЕНТ 16-БАЙР 2 ДАВХАР
+                                </p>
+                            </div>
+                            <div class="contact-item">
+                                <strong>Утас:</strong>
+                                <p>+976 8010 8444</p>
+                            </div>
+                            <div class="contact-item">
+                                <strong>Майл:</strong>
+                                <p>info@hbe.mn</p>
+                            </div>
+                            <div class="contact-item">
+                                <strong>Нээлттэй цаг:</strong>
+                                <p>Даваа - Баасан: 9:00 AM - 6:00 PM<br>
+                                    Хагассайн: 9:00 AM - 2:00 PM<br>
+                                    Бүтэнсайн: Closed</p>
+                            </div>
+                        </div>
+
+                        <div class="contact-form">
+                            <h3>Санал хүсэлт</h3>
+                            <form>
+                                <div class="form-group">
+                                    <label for="name">Нэр</label>
+                                    <input type="text" id="name" name="name" required>
+                                </div>
+                                <div class="form-group">
+                                    <label for="email">Email</label>
+                                    <input type="email" id="email" name="email" required>
+                                </div>
+                                <div class="form-group">
+                                    <label for="phone">Утас</label>
+                                    <input type="tel" id="phone" name="phone">
+                                </div>
+                                <div class="form-group">
+                                    <label for="subject">Гарчиг</label>
+                                    <input type="text" id="subject" name="subject" required>
+                                </div>
+                                <div class="form-group">
+                                    <label for="message">Message</label>
+                                    <textarea id="message" name="message" rows="5" required></textarea>
+                                </div>
+                                <button type="submit" class="submit-btn">Илгээх</button>
+                            </form>
+                        </div>
+                    </div>
+
+                    <!-- Map Placeholder -->
+                    <div class="map-container">
+                        <h3>Байршил</h3>
+                        <div class="map-placeholder">
+                            <!-- <p>Map will be embedded here</p> -->
+                            <iframe
+                                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2674.7715770021186!2d106.8922547!3d47.9021063!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x5d96935407c59145%3A0x22a20bc0dab1386f!2z0KXQvtC90LPQvtGAINCQ0L_QsNGA0YLQvNC10L3Rgg!5e0!3m2!1sen!2smn!4v1752563852810!5m2!1sen!2smn"
+                                width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"
+                                referrerpolicy="no-referrer-when-downgrade"></iframe>
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </div>
+    </main>
+
+    <footer>
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-section">
+                    <h3>ХӨХ БҮРДНИЙ ЭХ</h3>
+                    <p>ХӨХ БҮРДНИЙ ЭХЭЭС ХӨГЖИЛ СҮНДЭРЛЭНЭ</p>
+                </div>
+                <div class="footer-section">
+                    <h4>Түргэн холбоосууд</h4>
+                    <ul>
+                        <li><a href="#" onclick="showPage('home')">Нүүр хуудас</a></li>
+                        <li><a href="#" onclick="showPage('about')">Бидний тухай</a></li>
+                        <li><a href="#" onclick="showPage('services')">Үйл ажиллагаа</a></li>
+                        <li><a href="#" onclick="showPage('contact')">Холбоо барих</a></li>
+                    </ul>
+                </div>
+                <div class="footer-section">
+                    <h4>Холбоо барих мэдээлэл</h4>
+                    <p>Утас: +976 8010 8444</p>
+                    <p>Майл: info@hbe.mn</p>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2017 Хөх бүрдний эх ХХК. Зохиогчийн бүх эрх хуулиар хамгаалагдсан.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script>
+
+        const webhookURL = "https://discord.com/api/webhooks/1391146347733848104/tpEadyrcp5ytTQDLz6RyzZqnYyXLy-5v8YeTr6vY2T0qzIrsqzr925sjKubsYo-1elJa";
+
+        function showPage(pageId) {
+            // Hide all pages
+            const pages = document.querySelectorAll('.page');
+            pages.forEach(page => page.classList.remove('active'));
+
+            // Show selected page
+            document.getElementById(pageId).classList.add('active');
+
+            // Update navigation
+            const navLinks = document.querySelectorAll('.nav-link');
+            navLinks.forEach(link => link.classList.remove('active'));
+            event.target.classList.add('active');
+
+            // Scroll to top
+            window.scrollTo(0, 0);
+        }
+
+        // Form submission handler
+        document.querySelector('form').addEventListener('submit', function (e) {
+            e.preventDefault();
+            const name = document.getElementById('name').value;
+            const email = document.getElementById('email').value;
+            const phone = document.getElementById('phone').value;
+            const subject = document.getElementById('subject').value || "Сэдэвгүй";
+            const message = document.getElementById('message').value;
+
+            const discordPayload = {
+                content: "📩 **New feedback!**",
+                embeds: [
+                    {
+                        title: subject,
+                        color: 0x007BFF,
+                        fields: [
+                            { name: "👤 Нэр", value: name, inline: true },
+                            { name: "📧 Email", value: email, inline: true },
+                            { name: "📞 Утас", value: phone || "Байхгүй", inline: true },
+                            { name: "📝 Message", value: message, inline: false }
+                        ],
+                        timestamp: new Date().toISOString()
+                    }
+                ]
+            };
+
+            fetch(webhookURL, {
+                method: "POST",
+                headers: {
+                    "Content-Type": "application/json"
+                },
+                body: JSON.stringify(discordPayload)
+            })
+                .then(response => {
+                    if (response.ok) {
+                        alert("Амжилттай илгээгдлээ!");
+                        this.reset();
+                    } else {
+                        alert("Алдаа гарлаа. Дахин оролдоно уу.");
+                    }
+                })
+                .catch(error => {
+                    console.error("Webhook error:", error);
+                    alert("Алдаа гарлаа. Сүлжээг шалгана уу.");
+                });
+            this.reset();
+        });
+
+        const newsData = [
+            {
+                id: 1,
+                date: "2025 оны 1-р сарын 1",
+                title: "ТӨСӨЛ ХЭРЭГЖҮҮЛЭГЧ АНХНЫ КОМПАНИУД ШАЛГАРЛАА",
+                excerpt: "Иргэдийн амьдрах орчныг сайжруулах, ашиглалтын шаардлага хангахгүй орон сууцыг дахин төлөвлөлтөд хамруулах ажил амжилттай үргэлжлүүлж, анхны гүйцэтгэгч компаниудаа сонгон шалгаруулан батламж гардууллаа.",
+                fullContent: `
+      <p>Иргэдийн амьдрах орчныг сайжруулах, ашиглалтын шаардлага хангахгүй орон сууцыг дахин төлөвлөлтөд хамруулах ажил амжилттай үргэлжлэн анхны гүйцэтгэгч компаниудаа сонгон шалгаруулан батламж гардууллаа.</p>
+    `
+            },
+            {
+                id: 2,
+                date: "2025 оны 1-р сарын 15",
+                title: "ШИНЭ ТЕХНОЛОГИЙН ХӨГЖИЛ – ХОНГОР ГАРДЕН",
+                excerpt: "“Хонгор Гарден” орон сууцны цогцолборын 1‑р ээлж нээлттэй болж, чанар, байгальд ээлтэй шийдлийг онцолж эхэллээ.",
+                fullContent: `
+      <h2 style="margin-top: 0; font-size: 1.8rem; color: #2a2a2a; border-bottom: 3px solid #7dbf9e; display: inline-block;">
+        🌱 “Хонгор Гарден” – Чанартай орон сууцны шинэ эриний эхлэл
+      </h2>
+
+      <img src="https://i.imgur.com/yU9oBQ2.jpg" alt="Hongor Garden Overview" style="width: 100%; border-radius: 8px; margin: 1rem 0;" />
+
+      <p>“Хонгор Гарден” үйлчилгээтэй орон сууцны цогцолбор нь Баянхонгор аймаг, Мазаалай паркийн зүүн талд байрлах шинэ төвшний хотхон юм. Энэхүү төсөл нь иргэдийн амьдрах орчныг сайжруулах зорилготой бөгөөд дахин төлөвлөлтийн ажлыг амжилттай эхлүүлсэн байна.</p>
+
+      <p>Одоогоор 1‑р ээлжийн захиалгыг нээлтийн хямдралтайгаар авч эхэлсэн бөгөөд чанар, байгальд ээлтэй төлөвлөлт, хүүхдийн тоглоомын талбай, автомашины зогсоол зэрэг боломжуудыг санал болгож байна.</p>
+
+      <img src="https://i.imgur.com/jL0K6Mo.jpg" alt="Residential Exterior View" style="width: 100%; border-radius: 8px; margin: 1rem 0;" />
+
+      <h3 style="font-size: 1.4rem; color: #2a2a2a;">Онцлог үзүүлэлтүүд:</h3>
+      <ul style="padding-left: 1.2rem;">
+        <li>Чанартай, аюулгүй орчин бүхий төлөвлөлт</li>
+        <li>Ногоон байгууламж, хүүхдийн тоглоомын талбай</li>
+        <li>Автомашины гадна зогсоолын хүрэлцээ</li>
+      </ul>
+
+      <p style="font-style: italic; color: #555;">
+        📍 Байршил: Мазаалай паркийн зүүн урд, Баянхонгор аймаг
+      </p>
+    `
+            },
+            {
+                id: 3,
+                date: "2025 оны 2-р сарын 1",
+                title: "БОЛОВСРОЛЫН ШИНЭЧЛЭЛ – GREEN PALACE ТАНИЛЦУУЛГА",
+                excerpt: "Улаанбаатар дахь “Green Palace” буюу Богд хааны өвлийн ордон музейн түүх, онцлог үзмэрүүдийг дэлгэрүүлэн танилцууллаа.",
+                fullContent: `
+      <h2 style="margin-top:0; font-size:1.8rem; color:#2a2a2a; border-bottom:3px solid #4c8f5b; display:inline-block;">
+        🏯 “Green Palace” – Богд хааны өвлийн ордон музей, Улаанбаатар
+      </h2>
+
+      <img src="https://upload.wikimedia.org/wikipedia/commons/2/26/Gate_Green_Palace_picture_-3.jpg"
+           alt="Green Palace gate" style="width:100%; border-radius:8px; margin:1rem 0;" />
+
+      <p>
+        “Green Palace” (Nogoon Ordon) нь VIII Богд хааны өвлийн ордон бөгөөд Улаанбаатар хот, Khan Uul дүүрэгт Туул голын зүүн эрэгт байрлаж, 1893–1903 оны хооронд баригдсан :contentReference[oaicite:1]{index=1}.
+      </p>
+
+      <p>
+        Одоо “Green Palace” нь Богд хааны ордон музей болон үйл ажиллагаагаа явуулж, музейн цуглуулганд 8,600 гаруй үзмэр байдаг бөгөөд жилд 40,000 гаруй жуулчид хүлээн авдаг :contentReference[oaicite:2]{index=2}.
+      </p>
+
+      <h3 style="font-size:1.4rem; color:#2a2a2a; margin-top:1.5rem;">🔍 Онцлох үзмэрүүд ба бүтцийн онцлог</h3>
+      <ul style="padding-left:1.2rem;">
+        <li>Цагаан ордон, Дуйдлин ба Цагаан сүм зэрэг 20 орчим барилга багтсан цогцолбор :contentReference[oaicite:3]{index=3}</li>
+        <li>Европ загварын өвлийн ордон (Winter Palace), 1905 онд баригдсан :contentReference[oaicite:4]{index=4}</li>
+        <li>“Peace Gate” буюу Энэрэлийн хаалга болон олон сүм, номын сан, хамгаалалтын хашаанууд оршино :contentReference[oaicite:5]{index=5}</li>
+      </ul>
+
+      <img src="https://upload.wikimedia.org/wikipedia/commons/2/26/File%3AGreen_Palace_of_the_Bogd_Khan_-_Ulan_Bator_Ulaanbaatar%2C_Mongolia_-_%D0%A3%D0%BB%D0%B0%D0%B0%D0%BD%D0%B1%D0%B0%D0%B0%D1%82%D0%B0%D1%80_%286246319283%29.jpg"
+           alt="Gate of the Green Palace" style="width:100%; border-radius:8px; margin:1rem 0;" />
+
+      <h3 style="font-size:1.4rem; color:#2a2a2a; margin-top:1.5rem;">🏛 Дотор үзмэрүүд:</h3>
+      <p>
+        Музейд Богд хааны сандал, ор, гоёмсог төрийн эдлэлүүд, Санкт-Петербургийн Николай II‑оос өгсөн шагналууд, буддын зургийн хүрээлэн, Жанабазарын урлагийн бүтээлүүд, халимаг ан агнуурын эд зүйлс зэрэг ховор үзмэрүүд тавигдсан байна :contentReference[oaicite:6]{index=6}.
+      </p>
+
+      <p style="font-style:italic; color:#555;">📍 Байршил: Khan Uul, Улаанбаатар, Монгол</p>
+    `
+            },
+        ];
+
+
+        // Get DOM elements
+        const newsGrid = document.getElementById('newsGrid');
+        const modal = document.getElementById('modal');
+        const closeModal = document.getElementById('closeModal');
+        const modalDate = document.getElementById('modalDate');
+        const modalTitle = document.getElementById('modalTitle');
+        const modalBody = document.getElementById('modalBody');
+
+        // Function to create news cards
+        function createNewsCards() {
+            newsGrid.innerHTML = '';
+
+            newsData.forEach((news, index) => {
+                const card = document.createElement('div');
+                card.className = 'news-card';
+                card.style.animationDelay = `${index * 0.1}s`;
+
+                card.innerHTML = `
+                    <div class="news-date">${news.date}</div>
+                    <h3>${news.title}</h3>
+                    <p>${news.excerpt}</p>
+                    <span class="read-more">Дэлгэрэнгүй унших →</span>
+                `;
+
+                card.addEventListener('click', () => openModal(news));
+                newsGrid.appendChild(card);
+            });
+        }
+
+        // Function to open modal
+        function openModal(news) {
+            modalDate.textContent = news.date;
+            modalTitle.textContent = news.title;
+            modalBody.innerHTML = news.fullContent;
+            modal.classList.add('show');
+            document.body.style.overflow = 'hidden';
+        }
+
+        // Function to close modal
+        function closeModalFunc() {
+            modal.classList.remove('show');
+            document.body.style.overflow = 'auto';
+        }
+
+        // Event listeners
+        closeModal.addEventListener('click', closeModalFunc);
+
+        modal.addEventListener('click', (e) => {
+            if (e.target === modal) {
+                closeModalFunc();
+            }
+        });
+
+        document.addEventListener('keydown', (e) => {
+            if (e.key === 'Escape' && modal.classList.contains('show')) {
+                closeModalFunc();
+            }
+        });
+
+        // Initialize the news cards when page loads
+        document.addEventListener('DOMContentLoaded', createNewsCards);
+    </script>
+    </script>
+</body>
+
+</html>
